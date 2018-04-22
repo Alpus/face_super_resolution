@@ -21,5 +21,22 @@ LFW_PAIRS_6000 = os.path.join(LFW_FUNNELED_DIR, 'pairs.txt')
 
 WEIGHTS_DIR = os.path.join(DATA_DIR, 'weights')
 
-LIGHT_CNN_DIR = os.path.join(WEIGHTS_DIR, 'light_cnn')
-LIGHT_CNN_9_WEIGHT = os.path.join(LIGHT_CNN_DIR, 'LightCNN_9Layers_checkpoint.pth.tar')
+LIGHT_CNN_WEIGHTS_DIR = os.path.join(WEIGHTS_DIR, 'light_cnn')
+LIGHT_CNN_9_WEIGHT = os.path.join(LIGHT_CNN_WEIGHTS_DIR, 'LightCNN_9Layers_checkpoint.pth.tar')
+
+SRGAN_WEIGHTS_DIR = os.path.join(WEIGHTS_DIR, 'srgan')
+
+SRGAN_MSE_LOSS_WEIGHTS_DIR = os.path.join(SRGAN_WEIGHTS_DIR, 'mse_loss')
+
+SRGAN_VGG_LOSS_WEIGHTS_DIR = os.path.join(SRGAN_WEIGHTS_DIR, 'vgg_loss')
+
+SRGAN_LIGHT_CNN_LOSS_WEIGHTS_DIR = os.path.join(SRGAN_WEIGHTS_DIR, 'light_cnn_loss')
+
+
+LOGS_DIR = os.path.join(DATA_DIR, 'logs')
+
+SRGAN_LOGS_DIR = os.path.join(LOGS_DIR, 'srgan')
+
+SRGAN_MSE_LOSS_LOGS_DIR = os.path.join(SRGAN_LOGS_DIR, 'mse_loss')
+SRGAN_VGG_LOSS_LOGS_DIR = os.path.join(SRGAN_LOGS_DIR, 'vgg_loss')
+SRGAN_LIGHT_CNN_LOSS_LOGS_DIR = os.path.join(SRGAN_LOGS_DIR, 'light_cnn_loss')

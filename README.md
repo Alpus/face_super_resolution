@@ -3,6 +3,7 @@
 
 Repository based on:
 * [LightCNN](https://github.com/AlfredXiangWu/LightCNN)
+* [SRGAN](https://github.com/aitorzip/PyTorch-SRGAN)
 
 
 ## Data
@@ -15,3 +16,17 @@ If you want to reproduce work with datasets:
 2) And run `dataset_preparing.ipynb`
 
 [Weights for LightCNN](https://drive.google.com/file/d/0ByNaVHFekDPRWk5XUFRvTTRIVmc/view) -> `data/weights/light_cnn`
+
+## Train
+
+You can reproduce train pipeline using `srgan_training.ipynb`
+
+
+## Results
+
+||ROC AUC|
+|---|---|
+|Real-HR|`0.982`|
+|LR|`0.935`|
+
+You can reproduce results using `recognition_test.ipynb`
