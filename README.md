@@ -26,7 +26,8 @@ You can reproduce train pipeline using `srgan_training.ipynb`
 
 ||ROC AUC|
 |---|---|
-|Real-HR|`0.982`|
-|LR|`0.935`|
+|**Real HR**|**`0.98207`**|
+|SRGAN with MSE loss|`0.95963`|
+|Bicubic interpolation|`0.93559`|
 
 You can reproduce results using `recognition_test.ipynb`
