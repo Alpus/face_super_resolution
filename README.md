@@ -19,10 +19,12 @@ If you want to reproduce work with datasets:
 
 ## Train
 
-You can reproduce train pipeline using `srgan_training.ipynb`
+Trained on MS-Celeb-1M dataset. You can reproduce train pipeline using `srgan_training.ipynb`
 
 
 ## Results
+
+All approaches tested on LWF 6000 pairs.
 
 ||ROC AUC|
 |---|---|
