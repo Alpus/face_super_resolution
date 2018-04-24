@@ -19,6 +19,10 @@ LFW_FUNNELED_DIR = os.path.join(LFW_DIR, 'lfw_funneled')
 LFW_PAIRS_6000 = os.path.join(LFW_FUNNELED_DIR, 'pairs.txt')
 
 
+ANALYSIS_DIR = os.path.join(DATA_DIR, 'analysis')
+ROC_AUC_DIR = os.path.join(ANALYSIS_DIR, 'roc_auc')
+
+
 WEIGHTS_DIR = os.path.join(DATA_DIR, 'weights')
 
 LIGHT_CNN_WEIGHTS_DIR = os.path.join(WEIGHTS_DIR, 'light_cnn')
@@ -28,7 +32,14 @@ SRGAN_WEIGHTS_DIR = os.path.join(WEIGHTS_DIR, 'srgan')
 
 SRGAN_MSE_LOSS_WEIGHTS_DIR = os.path.join(SRGAN_WEIGHTS_DIR, 'mse_loss')
 SRGAN_MSE_LOSS_BEST_WEIGHT = os.path.join(SRGAN_MSE_LOSS_WEIGHTS_DIR, '0000601682.pth')
+
 SRGAN_VGG_LOSS_WEIGHTS_DIR = os.path.join(SRGAN_WEIGHTS_DIR, 'vgg_loss')
+SRGAN_VGG_LOSS_GENERATOR_WEIGHTS_DIR = os.path.join(SRGAN_VGG_LOSS_WEIGHTS_DIR, 'generator')
+SRGAN_VGG_LOSS_DISCRIMINATOR_WEIGHTS_DIR = os.path.join(SRGAN_VGG_LOSS_WEIGHTS_DIR, 'discriminator')
+
+SRGAN_LIGHT_CNN_LOSS_WEIGHTS_DIR = os.path.join(SRGAN_WEIGHTS_DIR, 'light_cnn_loss')
+SRGAN_LIGHT_CNN_LOSS_GENERATOR_WEIGHTS_DIR = os.path.join(SRGAN_LIGHT_CNN_LOSS_WEIGHTS_DIR, 'generator')
+SRGAN_LIGHT_CNN_LOSS_DISCRIMINATOR_WEIGHTS_DIR = os.path.join(SRGAN_LIGHT_CNN_LOSS_WEIGHTS_DIR, 'discriminator')
 
 
 LOGS_DIR = os.path.join(DATA_DIR, 'logs')
@@ -37,3 +48,4 @@ SRGAN_LOGS_DIR = os.path.join(LOGS_DIR, 'srgan')
 
 SRGAN_MSE_LOSS_LOGS_DIR = os.path.join(SRGAN_LOGS_DIR, 'mse_loss')
 SRGAN_VGG_LOSS_LOGS_DIR = os.path.join(SRGAN_LOGS_DIR, 'vgg_loss')
+SRGAN_LIGHT_CNN_LOSS_LOGS_DIR = os.path.join(SRGAN_LOGS_DIR, 'light_cnn_loss')

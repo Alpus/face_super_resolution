@@ -29,6 +29,7 @@ All approaches tested on LWF 6000 pairs.
 ||ROC AUC|
 |---|---|
 |**Real HR**|**`0.98207`**|
+|SRGAN with VGG LOSS|`0.96293`|
 |SRGAN with MSE loss|`0.95963`|
 |Bicubic interpolation|`0.93559`|
 
