@@ -46,6 +46,8 @@ SRGAN_LIGHT_CNN_LOSS_MFM4_DISCRIMINATOR_WEIGHTS_DIR = os.path.join(SRGAN_LIGHT_C
 
 LOGS_DIR = os.path.join(DATA_DIR, 'logs')
 
+ERRORS_LOGS_DIR = os.path.join(LOGS_DIR, 'errors')
+
 SRGAN_LOGS_DIR = os.path.join(LOGS_DIR, 'srgan')
 
 SRGAN_MSE_LOSS_LOGS_DIR = os.path.join(SRGAN_LOGS_DIR, 'mse_loss')
