@@ -29,9 +29,9 @@ All approaches tested on LWF 6000 pairs.
 ||ROC AUC|
 |---|---|
 |**Real HR**|**`0.98207`**|
+|SRGAN with Light CNN 9 loss (MFM4)|`0.96767`|
 |SRGAN with VGG LOSS (3.1)|`0.96371`|
 |SRGAN with VGG LOSS (3.1) NO ADVERSARIAL|`0.96360`|
-|SRGAN with Light CNN loss (MFM4)|`0.95965`|
 |SRGAN with MSE loss|`0.95963`|
 |Bicubic interpolation|`0.93559`|
 
