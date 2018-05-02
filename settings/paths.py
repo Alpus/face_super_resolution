@@ -45,6 +45,10 @@ SRGAN_LIGHT_CNN_9_LOSS_MFM4_DISCRIMINATOR_WEIGHTS_DIR = os.path.join(SRGAN_LIGHT
 
 SRGAN_LIGHT_CNN_9_LOSS_MFM4_NO_ADVERSARIAL_WEIGHTS_DIR = os.path.join(SRGAN_WEIGHTS_DIR, 'light_cnn_9_loss_mfm4_no_adversarial')
 
+SRGAN_LIGHT_CNN_9_LOSS_FC_NO_ADVERSARIAL_WEIGHTS_DIR = os.path.join(SRGAN_WEIGHTS_DIR, 'light_cnn_9_loss_fc_no_adversarial')
+
+SRGAN_LIGHT_CNN_9_LOSS_MFM4_NO_ADVERSARIAL_NO_IMAGE_WEIGHTS_DIR = os.path.join(SRGAN_WEIGHTS_DIR, 'light_cnn_9_loss_mfm4_no_adversarial_no_image')
+
 
 LOGS_DIR = os.path.join(DATA_DIR, 'logs')
 
@@ -57,3 +61,5 @@ SRGAN_VGG_LOSS_3_1_LOGS_DIR = os.path.join(SRGAN_LOGS_DIR, 'vgg_loss_3.1')
 SRGAN_VGG_LOSS_3_1_NO_ADVERSARIAL_LOGS_DIR = os.path.join(SRGAN_LOGS_DIR, 'vgg_loss_3.1_no_adversarial')
 SRGAN_LIGHT_CNN_9_LOSS_MFM4_LOGS_DIR = os.path.join(SRGAN_LOGS_DIR, 'light_cnn_9_loss_mfm4')
 SRGAN_LIGHT_CNN_9_LOSS_MFM4_NO_ADVERSARIAL_LOGS_DIR = os.path.join(SRGAN_LOGS_DIR, 'light_cnn_9_loss_mfm4_no_adversarial')
+SRGAN_LIGHT_CNN_9_LOSS_FC_NO_ADVERSARIAL_LOGS_DIR = os.path.join(SRGAN_LOGS_DIR, 'light_cnn_9_loss_fc_no_adversarial')
+SRGAN_LIGHT_CNN_9_LOSS_MFM4_NO_ADVERSARIAL_NO_IMAGE_LOGS_DIR = os.path.join(SRGAN_LOGS_DIR, 'light_cnn_9_loss_mfm4_no_adversarial_no_image')
