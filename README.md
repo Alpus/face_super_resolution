@@ -29,13 +29,13 @@ All approaches tested on LWF 6000 pairs.
 ||ROC AUC|
 |---|---|
 |**Real HR**|**`0.98207`**|
-|SRGAN with Light CNN 9 loss (MFM4) NO ADVERSARIAL|`0.96832`|
-|SRGAN with Light CNN 9 loss (MFM4)|`0.96742`|
-|SRGAN with Light CNN 9 loss (FC) NO ADVERSARIAL|`0.96594`|
+|SRGAN with Light CNN 9 (MFM4) NO ADVERSARIAL|`0.96832`|
+|SRGAN with Light CNN 9 (MFM4)|`0.96742`|
+|SRGAN with Light CNN 9 (FC) NO ADVERSARIAL|`0.96594`|
 |SRGAN with LIGHT CNN 9 (MFM4) NO ADVERSARIAL NO IMAGE|`0.96421`|
-|SRGAN with VGG LOSS (3.1)|`0.96349`|
-|SRGAN with VGG LOSS (3.1) NO ADVERSARIAL|`0.96346`|
-|SRGAN with MSE loss|`0.95951`|
+|SRGAN with VGG (3.1)|`0.96349`|
+|SRGAN with VGG (3.1) NO ADVERSARIAL|`0.96346`|
+|SRGAN with MSE|`0.95951`|
 |Bicubic interpolation|`0.93559`|
 
 You can reproduce results using `recognition_test.ipynb`
