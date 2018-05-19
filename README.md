@@ -33,7 +33,7 @@ All approaches tested on LWF 6000 pairs.
 |SRGAN with Light CNN 9 loss (MFM4)|`0.96742`|
 |SRGAN with Light CNN 9 loss (FC) NO ADVERSARIAL|`0.96594`|
 |SRGAN with LIGHT CNN 9 (MFM4) NO ADVERSARIAL NO IMAGE|`0.96421`|
-|SRGAN with VGG LOSS (3.1)|`0.96350`|
+|SRGAN with VGG LOSS (3.1)|`0.96349`|
 |SRGAN with VGG LOSS (3.1) NO ADVERSARIAL|`0.96346`|
 |SRGAN with MSE loss|`0.95951`|
 |Bicubic interpolation|`0.93559`|

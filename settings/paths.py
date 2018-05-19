@@ -6,6 +6,9 @@ SETTINGS_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.abspath(os.path.join(SETTINGS_DIR, '../data'))
 
 
+GRAPHICS_DIR = os.path.join(DATA_DIR, 'graphics')
+
+
 DATASETS_DIR = os.path.join(DATA_DIR, 'datasets')
 
 MS_CELEB_DIR = os.path.join(DATASETS_DIR, 'ms_celeb')
